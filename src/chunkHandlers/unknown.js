@@ -1,5 +1,4 @@
 module.exports = function getHandler(length) {
-
     const internalLength = length;
     return function unknownHandler(Buffer, contentStartByteIndex) {
         var readByteIndex = contentStartByteIndex;
